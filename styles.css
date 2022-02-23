@@ -52,12 +52,24 @@
         font-weight: 550;
     }
     
-       .underline{
-        height: 2px;
-        width: 145px;
-        background-color: white;
-      }
-    /*utilities*/
+      h1{
+        font-size: 2.9rem;
+        font-weight: 1000;
+        text-decoration-color: #ff3769;
+        text-decoration-line: underline;
+
+       }
+      h1 ::after {
+         content: none;
+         position: absolute;
+         background-color: #ff3769;
+         height: 3px;
+         width: 100%;
+         left: 0;
+         bottom: -30px;
+
+       }
+     /*utilities*/
     .container{
         width: 100vw;
         height: 100vh;
