@@ -1,0 +1,140 @@
+:root{
+    background-color: rgb(243, 242, 242);
+    font-size: 100%;
+    text-align: center;
+    
+
+    
+  }
+  *{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+     }
+     img {
+        border: 1px solid #ddd;
+        border-radius: 0px;
+        padding: 5px;
+        width: 150px;
+      }
+      
+  h1,
+  h2,
+  h3,
+  h4 { 
+      margin-bottom: 1rem;
+    }
+    h5{
+        font-size: 2.4rem;
+        color: rgb(241, 235, 238);
+        margin: 10rem 10rem 10rem 10rem;
+       background-color: rgb(253, 63, 120);
+       width: 50rem;
+       margin: auto;
+       border-radius: 0.4rem;
+       padding: auto;
+       
+    }
+    h1 > span {
+        font-size: 2.4rem;
+        font-weight: 500;
+    }
+    h2 {
+        font-size: 4.2rem;
+        margin-bottom: 4rem;
+        font-weight: 700;
+    } 
+    h3 {
+      color: #ff3769;
+        font-size: 2.8rem;
+        font-weight: 550;
+    }
+    
+       .underline{
+        height: 2px;
+        width: 145px;
+        background-color: white;
+      }
+    /*utilities*/
+    .container{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 80 rem;
+        margin: 0 auto;
+    }
+    .container > * {
+        width: 100%;
+      }
+      
+      .flex-column {
+        display: flex;
+        flex-direction: row;
+      }
+      
+      .flex-center {
+        justify-content: space-evenly;
+        align-items: center;
+      }
+      
+      .justify-center {
+        justify-content:space-evenly;
+      }
+      
+      .text-center {
+        text-align: center;
+      }
+      
+      .hidden {
+        display: none;
+      }
+      
+      /* BUTTONS */
+      .btn {
+        font-size: 2.2rem;
+        padding: 1rem 0;
+        width: 25rem;
+        text-align: center;
+        border: 0rem solid #ff3769;
+        margin-bottom: 1rem;
+        text-decoration: azure;
+        color: #ff3769;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0.1rem 0 0.7rem 0.1rem rgba(107, 107, 107, 0.5);
+      }
+      .btn:hover {
+        cursor: pointer;
+        /*box-shadow: 0 0.4rem 1.4rem 0 rgba(107, 107, 107, 0.5);*/
+       /*  transform: translateY(-0.1rem);*/
+       background-color: #f34c76;
+       color: white;
+        transition: transform 150ms;
+      }
+      .btnn {
+        font-size: 2.2rem;
+        padding: 0.4rem 0;
+        width: 14rem;
+        text-align: center;
+        border: 0.1rem solid #f34c76;
+        margin-bottom: 1rem;
+        text-decoration: azure;
+        color: white;
+        background-color: #f34c76 ;
+        border-radius: 30px;
+      }
+      
+      .btn[disabled]:hover {
+        cursor: not-allowed;
+        box-shadow: none;
+        transform: none;
+      }
+      .btnn[disabled]:hover {
+        cursor: not-allowed;
+        box-shadow: none;
+        transform: none;
+      }
